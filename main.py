@@ -3,4 +3,5 @@ from data_visualization import *
 
 
 def main(): 
-    # Read the data from the csv file
+    ## Here first we need to read the data from the csv file 
+    
