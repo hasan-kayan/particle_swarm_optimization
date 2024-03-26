@@ -1,45 +1,26 @@
 
-Particle Swarm Optimization (PSO) Algorithm
+# Particle Swarm Optimization (PSO) Algorithm
 This repository contains an implementation of the Particle Swarm Optimization (PSO) algorithm, a population-based stochastic optimization technique. PSO is inspired by the social behavior of birds flocking or fish schooling, where individuals (particles) move through a search space to find the optimal solution by learning from their own experience and the experiences of their neighbors.
 
-Overview
-The PSO algorithm is widely used in various optimization problems, including but not limited to, function optimization, neural network training, and feature selection. This implementation provides a generic framework for solving optimization problems using PSO.
+## Overview
+The PSO algorithm is widely used in various optimization problems, including but not limited to, function optimization, neural network training, and feature selection. This implementation provides a generic system for solving optimization problems using PSO. In this project I have created a basic system that accepts example data to process in PSO algorithm and generates the project folder which contains the results of the PSO and its visualaziotions. 
 
-Features
-Implementation of the standard PSO algorithm.
-Customizable parameters such as population size, maximum iterations, inertia weight, cognitive and social coefficients.
-Support for both continuous and discrete optimization problems.
-Easily extensible for different objective functions and constraints.
-Getting Started
-Clone this repository to your local machine:
+## Setup The Program  
 
-bash
-Copy code
-git clone https://github.com/your_username/particle_swarm_optimization.git
-Navigate to the project directory:
+- First you need to clone this repostory --> $ git clone https://github.com/hasan-kayan/particle_swarm_optimization 
+- Go to the path and run this script --> $ pip install -r requirements.txt 
+- Now you are ready to run but hovever you can also use directly to venv by --> $ source/bin/venv/activate
+- Then run the code -->  $ python3 main.py
 
-bash
-Copy code
-cd particle_swarm_optimization
-Install the dependencies (if any) listed in the requirements.txt file:
+## Usage 
+- When program starts it will ask you to choose a project directory than at the choosen directory you need to give a name to your project and let it create a new directory at the choosen one, enter the name of the project by terminal. 
+- Than you need to choose a csv file from your computer as your example data. 
+- Enter the iteration number of the program which will determine how many data you want to generate.
 
-Copy code
-pip install -r requirements.txt
-Start using the PSO algorithm for your optimization problem by modifying the provided template files.
+  Let program run and now you can see the results at project directory.
 
-Usage
-Define Objective Function: Implement your objective function in the objective_function.py file. This function should take a solution candidate as input and return a scalar value representing its fitness or objective value.
 
-Configure PSO Parameters: Adjust the PSO parameters such as population size, maximum iterations, inertia weight, cognitive and social coefficients in the pso_config.py file.
-
-Run PSO Algorithm: Execute the main.py script to run the PSO algorithm on your defined objective function:
-
-css
-Copy code
-python main.py
-Analyze Results: Analyze the results obtained from the PSO algorithm, including the best solution found and convergence behavior.
-
-Contributing
+## Contributing
 Contributions to improve this PSO implementation are welcome! Here are a few ways you can contribute:
 
 Implement additional variations of the PSO algorithm.
@@ -47,13 +28,8 @@ Improve performance and efficiency of the existing implementation.
 Provide examples and use cases demonstrating the application of PSO to various optimization problems.
 Please refer to the CONTRIBUTING.md file for more details on how to contribute.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## You Contact Me by 
 
-Acknowledgments
-Special thanks to the contributors and researchers who have made advancements in the field of optimization algorithms, making implementations like this possible.
+My website: hasankayan.com 
+Mail: hasankayanformal@gmail.com 
 
-Contact
-For any questions or suggestions regarding this project, feel free to contact Your Name.
-
-Happy optimizing! 🚀
